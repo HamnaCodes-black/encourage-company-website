@@ -9,6 +9,8 @@ export type ContactInquiryInput = {
 };
 
 export async function submitContactInquiry(input: ContactInquiryInput): Promise<string | null> {
+  if (!supabase) return 'Contact form is not configured yet.';
+
   const { error } = await supabase.from('contact_inquiries').insert({
     name: input.name,
     email: input.email,
