@@ -335,8 +335,6 @@ export const participantReviews = [
 export const serviceOptions = services.map((service) => service.title);
 
 export const contactInfo = {
-  phone: '03067533150',
-  phoneHref: 'tel:+923067533150',
   address: ['Near civic center Bahria town phase 4', 'Islamabad'],
   mapsUrl: 'https://maps.app.goo.gl/1gbaLomaSeTT9GeE9',
   timings: [

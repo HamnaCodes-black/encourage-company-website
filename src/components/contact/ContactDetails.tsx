@@ -1,24 +1,9 @@
-import { ArrowUpRight, Clock3, MapPin, Phone } from 'lucide-react';
+import { ArrowUpRight, Clock3, MapPin } from 'lucide-react';
 import { contactInfo } from '@/data/site';
 
 export default function ContactDetails() {
   return (
     <div className="mt-14 grid gap-8 rounded-3xl border border-navy-100 bg-navy-50/60 p-6 sm:p-8">
-      <div className="flex items-start gap-4">
-        <span className="flex h-11 w-11 flex-none items-center justify-center rounded-xl bg-navy-900 text-cyan-300">
-          <Phone className="h-5 w-5" aria-hidden="true" />
-        </span>
-        <div>
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-royal-600">Call us</p>
-          <a
-            href={contactInfo.phoneHref}
-            className="mt-1.5 inline-block text-lg font-bold text-navy-900 transition-colors duration-200 hover:text-royal-600"
-          >
-            {contactInfo.phone}
-          </a>
-        </div>
-      </div>
-
       <div className="flex items-start gap-4">
         <span className="flex h-11 w-11 flex-none items-center justify-center rounded-xl bg-navy-900 text-cyan-300">
           <MapPin className="h-5 w-5" aria-hidden="true" />
