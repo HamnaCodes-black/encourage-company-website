@@ -333,3 +333,18 @@ export const participantReviews = [
 ];
 
 export const serviceOptions = services.map((service) => service.title);
+
+export const contactInfo = {
+  phone: '03067533150',
+  phoneHref: 'tel:+923067533150',
+  address: ['Near civic center Bahria town phase 4', 'Islamabad'],
+  mapsUrl: 'https://maps.app.goo.gl/1gbaLomaSeTT9GeE9',
+  timings: [
+    { day: 'Monday', hours: '9:00 to 17:00' },
+    { day: 'Tuesday', hours: '9:00 to 17:00' },
+    { day: 'Wednesday', hours: '9:00 to 17:00' },
+    { day: 'Thursday', hours: '9:00 to 17:00' },
+    { day: 'Friday', hours: '9:00 to 12:00' },
+    { day: 'Saturday', hours: '9:00 to 17:00' },
+  ],
+};

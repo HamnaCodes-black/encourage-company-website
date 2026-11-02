@@ -1,4 +1,5 @@
 import { Clock3, MessageSquareText, ShieldCheck } from 'lucide-react';
+import ContactDetails from '@/components/contact/ContactDetails';
 import ContactForm from '@/components/contact/ContactForm';
 import PageHero from '@/components/ui/PageHero';
 import Reveal from '@/components/ui/Reveal';
@@ -49,6 +50,7 @@ export default function ContactPage() {
                 </li>
               ))}
             </ol>
+            <ContactDetails />
           </Reveal>
 
           <Reveal delay={150} className="lg:col-span-7">
