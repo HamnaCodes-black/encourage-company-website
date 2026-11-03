@@ -19,7 +19,7 @@ export default function ProjectsShowcase() {
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <img
                     src={project.image}
-                    alt={project.title}
+                    alt={`${project.title} project for ${project.client}`}
                     loading="lazy"
                     className="h-full w-full object-cover transition-transform duration-[1200ms] group-hover:scale-110"
                   />

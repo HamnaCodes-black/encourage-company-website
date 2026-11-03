@@ -21,7 +21,7 @@ export default function IntroSection() {
             service company. We combine skilled people, proven processes and modern technology to handle
             the work that keeps your business running: records, content and digital operations.
           </p>
-          <a href="#/about" className="btn-ghost group mt-8">
+          <a href="/about" className="btn-ghost group mt-8">
             Read our story
             <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
           </a>

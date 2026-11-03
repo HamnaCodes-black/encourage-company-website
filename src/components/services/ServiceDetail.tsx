@@ -18,7 +18,7 @@ export default function ServiceDetail({ service, reversed = false }: ServiceDeta
           <div className="group relative overflow-hidden rounded-3xl shadow-2xl shadow-navy-900/15">
             <img
               src={service.image}
-              alt={`${service.title} work in progress`}
+              alt={`${service.title} service: ${service.tagline}`}
               loading="lazy"
               className="aspect-[4/3] w-full object-cover transition-transform duration-[1500ms] group-hover:scale-105"
             />
@@ -78,7 +78,7 @@ export default function ServiceDetail({ service, reversed = false }: ServiceDeta
             </ol>
           </div>
 
-          <a href="#/contact" className="btn-primary mt-12">
+          <a href="/contact" className="btn-primary mt-12">
             Discuss {service.title.toLowerCase()}
           </a>
         </Reveal>

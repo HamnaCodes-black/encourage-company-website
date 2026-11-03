@@ -3,10 +3,10 @@ import { Menu, X } from 'lucide-react';
 import Logo from '@/components/layout/Logo';
 
 const navLinks = [
-  { label: 'Home', href: '#/' },
-  { label: 'About', href: '#/about' },
-  { label: 'Services', href: '#/services' },
-  { label: 'Contact', href: '#/contact' },
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
+  { label: 'Services', href: '/services' },
+  { label: 'Contact', href: '/contact' },
 ];
 
 type SiteHeaderProps = {
@@ -30,8 +30,7 @@ export default function SiteHeader({ path }: SiteHeaderProps) {
 
   const solid = scrolled || menuOpen;
   const isActive = (href: string) => {
-    const target = href.replace('#', '');
-    return target === '/' ? path === '/' : path === target || path.startsWith(`${target}/`);
+    return href === '/' ? path === '/' : path === href || path.startsWith(`${href}/`);
   };
 
   return (
@@ -43,7 +42,7 @@ export default function SiteHeader({ path }: SiteHeaderProps) {
       }`}
     >
       <div className="section-shell flex h-20 items-center justify-between">
-        <a href="#/" aria-label="ENCOURAGE IT DEVELOPMENT PRIVATE-LTD home">
+        <a href="/" aria-label="Encourage IT Solutions home">
           <Logo tone={solid ? 'dark' : 'light'} />
         </a>
 
@@ -76,7 +75,7 @@ export default function SiteHeader({ path }: SiteHeaderProps) {
         </nav>
 
         <div className="hidden md:block">
-          <a href="#/contact" className="btn-primary !px-5 !py-2.5">
+          <a href="/contact" className="btn-primary !px-5 !py-2.5">
             Start a project
           </a>
         </div>
@@ -111,7 +110,7 @@ export default function SiteHeader({ path }: SiteHeaderProps) {
               {link.label}
             </a>
           ))}
-          <a href="#/contact" className="btn-primary mt-3">
+          <a href="/contact" className="btn-primary mt-3">
             Start a project
           </a>
         </nav>

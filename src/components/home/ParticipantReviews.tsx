@@ -45,7 +45,7 @@ export default function ParticipantReviews() {
               >
                 <img
                   src={src}
-                  alt={`Participant feedback screenshot ${index + 1}`}
+                  alt={`Written feedback from an Encourage IT Solutions participant, image ${index + 1}`}
                   loading="lazy"
                   className="h-auto w-full transition-transform duration-[1200ms] group-hover:scale-105"
                 />

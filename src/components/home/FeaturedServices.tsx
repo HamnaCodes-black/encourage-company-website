@@ -17,13 +17,13 @@ export default function FeaturedServices() {
           {services.map((service, index) => (
             <Reveal key={service.slug} delay={index * 150}>
               <a
-                href={`#/services/${service.slug}`}
+                href={`/services/${service.slug}`}
                 className="card-surface group flex h-full flex-col overflow-hidden"
               >
                 <div className="relative h-60 overflow-hidden">
                   <img
                     src={service.image}
-                    alt={`${service.title} service`}
+                    alt={`${service.title} services from Encourage IT Solutions`}
                     loading="lazy"
                     className="h-full w-full object-cover transition-transform duration-[1200ms] group-hover:scale-110"
                   />

@@ -163,7 +163,7 @@ export const services: Service[] = [
     title: 'Networking',
     tagline: 'Reliable connectivity for your business',
     summary:
-      'From initial setup to day-to-day maintenance, we design, configure and look after the networks your business depends on, so your people stay connected.',
+      'From initial setup to day-to-day maintenance, our IT solutions design, configure and look after the networks your business depends on, so your people stay connected.',
     icon: Network,
     image:
       'https://images.pexels.com/photos/6466143/pexels-photo-6466143.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',

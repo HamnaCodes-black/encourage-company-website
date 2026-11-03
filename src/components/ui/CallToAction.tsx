@@ -18,7 +18,7 @@ export default function CallToAction({ title, description }: CallToActionProps) 
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-navy-100 sm:text-lg">{description}</p>
           <a
-            href="#/contact"
+            href="/contact"
             className="btn-primary group mt-10 !bg-cyan-400 !text-navy-950 !shadow-cyan-400/30 hover:!bg-cyan-300"
           >
             Request a proposal

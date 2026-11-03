@@ -52,11 +52,11 @@ export default function HeroSection() {
             className="animate-fade-up mt-10 flex flex-col gap-4 sm:flex-row sm:items-center"
             style={{ animationDelay: '360ms' }}
           >
-            <a href="#/contact" className="btn-primary group !bg-cyan-400 !text-navy-950 !shadow-cyan-400/30 hover:!bg-cyan-300">
+            <a href="/contact" className="btn-primary group !bg-cyan-400 !text-navy-950 !shadow-cyan-400/30 hover:!bg-cyan-300">
               Start your project
               <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
             </a>
-            <a href="#/services" className="btn-secondary group">
+            <a href="/services" className="btn-secondary group">
               <PlayCircle className="h-5 w-5 text-cyan-300" />
               Explore services
             </a>

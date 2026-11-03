@@ -5,24 +5,24 @@ const footerLinks = [
   {
     title: 'Company',
     links: [
-      { label: 'About us', href: '#/about' },
-      { label: 'Our mission', href: '#/about' },
+      { label: 'About us', href: '/about' },
+      { label: 'Our mission', href: '/about' },
     ],
   },
   {
     title: 'Services',
     links: [
-      { label: 'Data entry', href: '#/services/data-entry' },
-      { label: 'Article writing', href: '#/services/article-writing' },
-      { label: 'Team management', href: '#/services/team-management' },
-      { label: 'Networking', href: '#/services/networking' },
+      { label: 'Data entry', href: '/services/data-entry' },
+      { label: 'Article writing', href: '/services/article-writing' },
+      { label: 'Team management', href: '/services/team-management' },
+      { label: 'Networking', href: '/services/networking' },
     ],
   },
   {
     title: 'Support',
     links: [
-      { label: 'Contact us', href: '#/contact' },
-      { label: 'Start a project', href: '#/contact' },
+      { label: 'Contact us', href: '/contact' },
+      { label: 'Start a project', href: '/contact' },
     ],
   },
 ];
@@ -45,7 +45,7 @@ export default function SiteFooter() {
               speed and partnership in every engagement.
             </p>
             <a
-              href="#/contact"
+              href="/contact"
               className="group mt-8 inline-flex items-center gap-2 rounded-full border border-cyan-400/40 px-5 py-2.5 text-sm font-semibold text-cyan-200 transition-all duration-300 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-white"
             >
               Talk to our team

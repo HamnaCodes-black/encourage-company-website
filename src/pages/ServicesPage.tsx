@@ -25,7 +25,7 @@ export default function ServicesPage({ activeSlug }: ServicesPageProps) {
           {services.map((service) => (
             <a
               key={service.slug}
-              href={`#/services/${service.slug}`}
+              href={`/services/${service.slug}`}
               className="rounded-full border border-white/20 bg-white/5 px-5 py-2.5 text-sm font-semibold text-white backdrop-blur transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-300 hover:bg-white/15"
             >
               {service.title}

@@ -10,7 +10,7 @@ export default function Logo({ tone = 'dark' }: LogoProps) {
     <span className="flex items-center gap-3">
       <img
         src="/IT_logo.jpeg"
-        alt="ENCOURAGE IT DEVELOPMENT PRIVATE-LTD logo"
+        alt="Encourage IT Solutions logo"
         className="h-11 w-11 flex-none rounded-xl object-cover shadow-lg shadow-navy-900/20 ring-1 ring-white/30 sm:h-12 sm:w-12"
       />
       <span className="flex flex-col leading-tight">
